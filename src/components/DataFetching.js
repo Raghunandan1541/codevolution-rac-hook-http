@@ -18,13 +18,13 @@ function DataFetching() {
 	}, [id])
 	return (
 		<div>
-		<input 
-			type='text'
-			value={id}
-			onChange={(e) => {
-				setId(e.target.value)
-			}}
-		/>
+			<input 
+				type='text'
+				value={id}
+				onChange={(e) => {
+					setId(e.target.value)
+				}}
+			/>
 			{/* <ul>
 				{
 					posts.map(post => (
